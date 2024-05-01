@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904659156634",
+    "firebase_url": "https://charusat-hostel-management-sys.firebaseio.com",
+    "project_id": "charusat-hostel-management-sys",
+    "storage_bucket": "charusat-hostel-management-sys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904659156634:android:0261003cb2db4afe496923",
+        "android_client_info": {
+          "package_name": "com.example.charusathostelmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904659156634-hl5821oneumj96tpnr9eu5haoo74lv6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj9ke1PYils1dgWKzlxQpbr7bZ-TPbjIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904659156634-hl5821oneumj96tpnr9eu5haoo74lv6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

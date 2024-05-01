@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".lobby">
+
+    <Button
+        android:id="@+id/hostel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:background="#FFFF00"
+        android:text="Hostel Details"
+        app:layout_constraintBottom_toTopOf="@+id/Room"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Room"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:background="#FFFF00"
+        android:text="Room Details"
+        app:layout_constraintBottom_toTopOf="@+id/Mess"
+        app:layout_constraintEnd_toEndOf="@+id/Mess"
+        app:layout_constraintStart_toStartOf="@+id/Mess" />
+
+    <Button
+        android:id="@+id/Mess"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="Mess Details"
+        android:background="#FFFF00"
+        app:layout_constraintBottom_toTopOf="@+id/Bookings"
+        app:layout_constraintEnd_toEndOf="@+id/Bookings"
+        app:layout_constraintStart_toStartOf="@+id/Bookings" />
+
+    <Button
+        android:id="@+id/Bookings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="Bookings"
+        android:background="#FFFF00"
+        app:layout_constraintBottom_toTopOf="@+id/sd"
+        app:layout_constraintEnd_toEndOf="@+id/sd"
+        app:layout_constraintStart_toStartOf="@+id/sd" />
+
+    <Button
+        android:id="@+id/sd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        android:text="STUDENT DETAILS"
+        android:background="#FFFF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
